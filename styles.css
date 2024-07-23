@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Inter Regular";
+  src: url("./Inter-Regular.ttf");
+}
+
+:root {
+  --primary: #8b8888;
+  --secondary: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  color: var(--primary);
+  background-color: var(--secondary);
+  font-family: "Inter Regular";
+  letter-spacing: 0.25rem;
+  min-height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+img {
+  border-radius: 50%;
+  width: 20rem;
+  height: 20rem;
+}
+
+.container {
+  max-width: 40rem;
+  display: grid;
+  place-items: center;
+  gap: 2.5rem;
+}
