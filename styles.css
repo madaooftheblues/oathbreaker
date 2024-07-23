@@ -24,19 +24,22 @@ body {
   font-family: "Inter Regular";
   letter-spacing: 0.25rem;
   min-height: 100%;
-  display: grid;
-  place-items: center;
+  padding: 2.5rem;
 }
 
 img {
   border-radius: 50%;
-  width: 20rem;
-  height: 20rem;
+  width: 100%;
+}
+
+h1 {
+  font-size: 2.027rem;
 }
 
 .container {
-  max-width: 40rem;
+  max-width: 20rem;
   display: grid;
   place-items: center;
   gap: 2.5rem;
+  margin: auto;
 }
